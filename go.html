@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>the.girlintech</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="favian.jpeg" >
+
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- Logo and Brand -->
+      <a href="#" class="brand">
+        <img src="logo.jpeg" alt="the.girlintech Logo" class="logo">
+        <span class="brand-text">the.girlintech</span>
+      </a>
+      <!-- Mobile Nav Toggle -->
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <!-- Navigation -->
+      <nav class="nav" id="main-nav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#values">Core Values</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <!-- Hero Text -->
+      <div class="hero-text">
+        <h1 class="typing">Hi there! we're so glad your'e here</h1>
+        <p class="hero-lead">At the.girlintech, we believe in possibilities, learning, building, and becoming the best version of yourself in the digital world.</p>
+        <div class="hero-cta">
+          <a href="#services" class="btn primary">Our Services</a>
+          <a href="#contact" class="btn ghost">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT US SECTION -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p class="lead">we celebrate curiosity and creativity in technology .</p>
+      <div class="cards">
+        <article class="card">
+          <h3>Mission</h3>
+          <p>Provide modern, professional, and accessible tech services that help individuals and businesses grow online.</p>
+        </article>
+        <article class="card">
+          <h3>Vision</h3>
+          <p>To inspire girls and women to confidently thrive in technology and build impactful digital solutions.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="section alt">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="feature">
+          <h3>Web Development</h3>
+          <p>We build Modern, responsive and tailored website to your brand identity, goals, and audience.</p>
+        </div>
+        <div class="feature">
+          <h3>Data Entry</h3>
+          <p>looking for accurate and efficient data management? we've got you!.</p>
+        </div>
+        <div class="feature">
+          <h3>password recovery</h3>
+          <p>locked out of your account or forgot your password? we help you regain access safely and securely.</p>
+        </div>
+        <div class="feature">
+          <h3>Windows installation</h3>
+          <p>we provide complete Windows installation and set up services,ensuring your system runs smoothly and efficiently.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORE VALUES SECTION -->
+  <section id="values" class="section">
+    <div class="container">
+      <h2>Our Core Values</h2>
+      <ul class="values">
+        <li><strong>Excellence :</strong> we strive high quality work and professional growth.</li>
+        <li><strong>Innovation:</strong> Creativity and new ideas to solve modern solutions.</li>
+        <li><strong>Integrity:</strong> we act Honestly and responsibly in everything we do.</li>
+        <li><strong>Inclusivity:</strong> We create a space for everyone, regardless of background or experience.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section alt">
+    <div class="container contact-grid">
+      <div>
+        <h2>Contact Us</h2>
+       <a href="mailto:the.girlintech@gmail.com">
+  <i class="fas fa-envelope"></i>
+</a>
+
+    <a href="https://www.instagram.com/the.girlintech/" target="_blank">
+  <i class="fab fa-instagram"></i>
+</a>
+
+     
+        <p>Location: Remote / Nigeria</p>
+      </div>
+     <form action="#" method="POST" class="contact-form">
+
+  <h2>Let's Connect</h2>
+
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+  <label for="service">Select a Service</label>
+  <select id="service" name="service" required>
+    <option value="">-- Choose a Service --</option>
+    <option value="web-development">Web Development</option>
+    <option value="branding">password recovery</option>
+    <option value="data-entry">Data Entry</option>
+    <option value="tech-support">Windows installation</option>
+    <option value="other">Other</option>
+  </select>
+
+  <label for="message">Your Message</label>
+  <textarea id="message" name="message" rows="5" placeholder="Tell us what you need..." required></textarea>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 the.girlintech</p>
+    </div>
+  </footer>
+
+  <!-- External JS -->
+  <script src="script.js"></script>
+</body>
+</html>

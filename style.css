@@ -1,0 +1,327 @@
+/* =============================
+  THE.GIRLINTECH - STYLE.CSS
+  Luxurious, feminine, pastel + bold pink theme
+  Fully responsive + animations
+============================= */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #FFE4F0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* =============================
+  HEADER
+============================= */
+header {
+  background: linear-gradient(135deg, #FF3B99, #FFD1DC);
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+header .brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+header .logo {
+  width: 200px;
+  margin-right: 60px;
+  border-radius: 50%;
+}
+
+nav {
+  margin-top: 15px;
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  transform: scale(1.1);
+  color: #FFF0F5;
+}
+
+/* =============================
+  HERO SECTION
+============================= */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  background: linear-gradient(135deg, #FFD1DC, #FF3B99);
+  color: #fff;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-text {
+  flex: 1 1 400px;
+  text-align: left;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-family:"Licorice", cursive;
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  color: #FF3B99;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.hero-cta .btn {
+  margin-right: 15px;
+  padding: 12px 25px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #FF3B99;
+  color: white;
+}
+
+.btn.primary:hover {
+  background: #FF5FAF;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn.ghost:hover {
+  background: rgba(255,255,255,0.2);
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.hero-image img:hover {
+  transform: scale(1.05);
+}
+ a{
+    text-decoration: none;
+ }
+/* =============================
+  SECTIONS GENERAL
+============================= */
+.section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.section.alt {
+  background: #FFF0F5;
+}
+
+.section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #FF3B99;
+  margin-bottom: 30px;
+}
+
+.cards, .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.card, .feature {
+  background: #fff;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover, .feature:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+}
+
+.values {
+  list-style: none;
+  margin-top: 20px;
+}
+.values li {
+  font-size: 18px;
+  margin: 15px 0;
+}
+
+/* =============================
+  CONTACT FORM
+============================= */
+.contact-grid {
+  display:flex;
+  gap: 40px;
+  align-items: center;
+}
+.contact-form{
+    margin-left: 50rem;
+}
+.contact-form {
+  max-width: 450px;
+  background: linear-gradient(135deg, #FF3B99, #FFD1DC);
+  padding: 20px;
+  width: 50rem;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-form h2 {
+  margin-bottom: 15px;
+  color: #d63384;
+  text-align: center;
+}
+
+.contact-form label {
+  display:flex;
+  margin-top: 12px;
+  font-weight: 600;
+  color: #444;
+}
+
+.contact-form input, 
+.contact-form select,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #d63384;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #b0256a;
+}
+/* =============================
+  FOOTER
+============================= */
+footer {
+  background: #FF3B99;
+  color: white;
+  text-align: center;
+  padding: 25px 0;
+  margin-top: 40px;
+}
+
+/* =============================
+  ANIMATIONS
+============================= */
+@keyframes fadeIn {
+  from {opacity: 0; transform: translateY(30px);}
+  to {opacity: 1; transform: translateY(0);}
+}
+
+.typing {
+  overflow: hidden;
+  border-right: .15em solid #FF3B99;
+  white-space: nowrap;
+  animation: typing 3s steps(40, end), blink .75s step-end infinite;
+}
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+@keyframes blink {
+  50% { border-color: transparent; }
+}
+
+/* =============================
+  RESPONSIVENESS
+============================= 
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+}
+*/
+
+/* Mobile */
+@media (max-width: 600px) {}
+
+/* Tablet */
+@media (min-width: 601px) and (max-width: 768px) {}
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+/* Desktop */
+@media (min-width: 1025px) and (max-width: 1440px) {}
+
+/* Large screens */
+@media (min-width: 1441px) {}
+
+/* =============================
+  icons
+============================= */
+i {
+  font-size: 40px; /* change to any size you want */
+  color: #d63384;  /* brand pink */
+  transition: transform 0.3s;
+}
+
+i:hover {
+  transform: scale(1.3);
+}
